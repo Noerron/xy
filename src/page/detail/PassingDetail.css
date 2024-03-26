@@ -1,0 +1,31 @@
+.blue{
+    background: #0252f5;
+    color: #fff;
+   
+}
+.yellow{
+background-color: orange;
+color: #000;
+}
+.green{
+    background-color: #46e75d;
+    color: #000;
+}
+.white{
+    background-color: white;
+    color: #000;
+}
+.map{
+    position: relative;
+    width: 95%;
+    height: 90%;
+    margin: 20px auto;
+}
+.baiduMap{
+    width: 100%;
+    height: 100%;
+}
+.axle_weight .ant-collapse-item .ant-collapse-header{
+    padding-left: 10px;
+    padding-top: 3px;
+}

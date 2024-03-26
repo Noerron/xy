@@ -1,0 +1,24 @@
+.ant-table-thead tr .ant-table-cell{
+    background-color: #002449 !important;
+    color: rgb(97, 210, 247) !important;
+    border: none !important ;
+}
+.ant-table-tbody .ant-table-row-expand-icon {
+    color: #000 !important;
+}
+.ant-table-expanded-row-level-1{
+    
+    background-color: #012b55 !important;
+}
+.tableList2{
+    margin: 0 auto;
+   
+}
+.tablebar{
+    max-width: 2000;
+    overflow-x: hidden;
+}
+.cols{
+    background-color: #002449;
+    color: #fff;
+}

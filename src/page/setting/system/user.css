@@ -1,0 +1,9 @@
+.bottom_box{
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    
+}
+.button_cen button{
+    margin-left: 8px;
+}

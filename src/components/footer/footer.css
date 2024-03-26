@@ -1,0 +1,17 @@
+.footer{
+    
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .ant-pagination .ant-pagination-item a,
+.footer .ant-pagination .ant-pagination-prev  path,
+.footer .ant-pagination-item-link .ant-pagination-item-ellipsis,
+.footer .ant-pagination-next .ant-pagination-item-link path{
+    color: #fff !important;
+}
+ .ant-pagination .ant-pagination-item-active{
+    background-color: #001435;
+}
+

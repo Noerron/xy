@@ -1,0 +1,111 @@
+.print_box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000;
+    overflow: auto;
+}
+.print_box input {
+      outline: none;
+}
+.print_box .editor-content{
+    width: 180mm;
+    height: 1020px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+}
+.editor-content .content_p1{
+    font-size: 20pt;
+    line-height: 150%;
+  
+    margin: 0pt;
+    text-align: center;
+}
+.editor-content .content_p1 span{
+    font-family: 华文中宋;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.editor-content .content_p2{
+    margin: 0pt;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.editor-content .content_p2 span{
+    font-family: 宋体;
+    font-size: 12pt;
+}
+.print_box .big2{
+    width: auto;
+    padding: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.print_box .big2 .el-input__inner{
+    border: none;
+    width: 300px;
+    line-height: 20px;
+    height: 20px;
+    color: #000;
+    font-size: 12pt;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+.print_box .cotent_herder{
+    line-height: 25pt;
+    margin: 0pt 0pt 0pt 24pt;
+}
+.print_box .he-input__inner{
+    border: none;
+    width: 260px;
+    line-height: 20px;
+    height: 20px;
+    font-family: 黑体;
+    font-weight: 700;
+    color: #000;
+    font-size: 12pt;
+    border-radius: 0;
+}
+.print_box .MsoNormal{
+    margin-bottom: 0.0001pt;
+    text-align: center;
+    vertical-align: middle;
+}
+.print_btn {
+    position: fixed;
+    top: 40%;
+    left: 80%;
+    color: #fff;
+}
+.print_btn  .muban{
+    padding: 10px 0;
+
+}
+
+
+.print_main{
+    padding-top: 20px;
+}
+.print_main .WordSection1{
+    width: 170mm;
+    background-color: #fff;
+    padding: 20px 20px;
+    margin: 0 auto;
+    color: #000;
+
+}
+
+.print_main .MsoNormal{
+    text-align: center;
+    padding: 10px 0px;
+}
+.print_main .MsoNormalTable{
+    width: 100.82%;
+    border-collapse: collapse;
+}

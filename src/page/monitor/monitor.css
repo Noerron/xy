@@ -1,0 +1,107 @@
+.monitor{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    padding: 10px 20px 20px;
+    
+    box-sizing: border-box;
+    align-items: center;
+}
+.monitor_left{
+    margin-right: 20px;
+    width: 320px;
+    height: 100%;
+    box-shadow: inset 0 0 10px 6px #002b52;
+}
+.monitor_list{
+    width: 100%;
+}
+.is-never-shadow{
+    background-color: #001435;
+    width: 90%;
+    border: none;
+    color: #fff;
+    margin: 0 10px;
+}
+.carDetail .ant-card-head-wrapper .ant-card-head-title,.monitor_list .ant-card-head-wrapper .ant-card-head-title{
+    color: #fff;
+}
+.monitor_list .ant-card-head{
+    border-bottom: none !important;
+}
+.ant-card-body{
+    padding: 0 !important;
+}
+
+.card_body .ant-tree{
+    background-color: transparent;
+    color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected{
+    color: #2D97C1;
+    background-color: #001435;
+}
+
+.monitor_right{
+    width: calc(100% - 270px);
+    background-color: #001435;
+    box-shadow: inset 0px 5px 20px 10px #002b52;
+    height: 100%;
+    display: flex;
+}
+.carDetail{
+    width:630px;
+ 
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 97.3%;
+    color: #fff;
+}
+
+.carDetail .card{
+    height: 97.3%;
+    border: 1px solid #004985;
+    background-color: #001435 ;
+    
+    color: #fff;
+    transition: .3s;
+}
+.carDetail .card .ant-card-head{
+    border-bottom: 1px solid #004985 !important;
+}
+.carDetail .card .ant-card-body{
+    padding: 20px !important;
+}
+.images{
+    width: 100%;
+    height: 310px;
+   
+  
+}
+.images img{
+    background: #001435;
+    border: 1px solid #004985;
+    width: 99%;
+    height: 90%;
+}
+.form_list label{
+    color: #fff !important;
+}
+.form_list input{
+    background-color: #001435;
+    color: #fff;
+    border: 1px solid #004985;
+    box-shadow: inset 0 0 10px 3px #002b52;
+
+}
+.form_list input::placeholder{
+    color: #ccc !important;
+}
+.video{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 95%;
+}

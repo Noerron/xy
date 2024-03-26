@@ -1,0 +1,164 @@
+.violationdetail .btn{
+    width: 95%;
+    height: 29px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.col-tag{
+    border-color: #004985;
+    line-height: 30px;
+    font-size: 12px;
+    height: 32px;
+    color: #409eff;
+}
+.violationdetail .box{
+    width: 95%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: calc(100% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news{
+    display: flex;
+    width: 100%;
+    height: 49%;
+    justify-content: space-between;
+}
+
+.one{
+    display: flex;
+    color: #fff;
+    width: 49.5%;
+    height: 100%;
+    background-color: #001435;
+    border: 1px solid #004985;
+    box-shadow: inset 0 0 10px 6px #002b52;
+}
+.car_information{
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+    padding-left: 30px;
+}
+.car_num{
+    width: 50%;
+    background-color: orange;
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.one .monitor_news div,.one .axle_load div{
+padding: 8px;
+color: #06c;
+font-size: 16px;
+}
+.one .axle_weight{
+    padding-right: 10px;
+    height: 30px;
+
+}
+.one .axle_weight span {
+color: #06c !important;
+font-size: 16px;
+}
+.one .axle_weight .ant-collapse-content-box{
+    color: #06c !important;
+
+}
+.ant-collapse-content-box p{
+    font-size: 11px;
+}
+.one .monitor_information{
+    color: #06c;
+    width: 50%;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 16px;
+}
+.two{
+    width: calc(49.5% - 20px);
+    height: calc(100% - 20px);
+    padding: 10px;
+    background-color: #001435;
+    border: 1px solid #004985;
+    box-shadow: inset 0 0 10px 6px #002b52;
+}
+.car_img{
+    width: 49%;
+    height: 48%;
+    float: left;
+    margin-left: 1%;
+} 
+.car_img .ant-image {
+    width: 100%;
+    height: 100%;
+}
+.car_img:nth-child(3),.car_img:nth-child(4){
+    margin-top: 2%;
+}
+.three,.four{
+    display: block;
+    color: #fff;
+    width: 49.5%;
+    height: 100%;
+    background-color: #001435;
+    border: 1px solid #004985;
+    box-shadow: inset 0 0 10px 6px #002b52;
+}
+.threeTitle{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three .table{
+    width: 90%;
+    height: calc(100% - 75px);
+    margin: 0 auto;
+   
+    position: relative;
+}
+.tablelist{
+    max-height: 332px;
+    overflow-y: scroll;
+}
+.footer-pos{
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+}
+.four .video{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.blue{
+    background: #0252f5;
+    color: #fff;
+   
+}
+.yellow{
+background-color: orange;
+color: #000;
+}
+.green{
+    background-color: #46e75d;
+    color: #000;
+}
+.white{
+    background-color: white;
+    color: #000;
+}
+.red{
+    background: #FF4D4F;
+    color: #fff;  
+}

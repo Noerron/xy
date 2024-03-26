@@ -1,0 +1,35 @@
+.ant-table-content .ant-table-thead .columns{
+    background-color:  #002449 ;
+    color:rgb(97, 210, 247);
+    border: none !important;
+}
+
+.oddRow {
+    background: #012B55;
+    color: #fff;
+  }
+
+.evenRow {
+    background: #002449 ;
+    color: #fff;
+}
+.ant-table-placeholder{
+  background: rgb(0, 20, 53);
+}
+
+.ant-table-tbody > tr > td {
+    background: rgba(255,255,255,0) !important;
+ 
+  }
+  .ant-table-tbody > tr:hover>td{
+    background: rgba(255,255,255,.3) !important;
+
+  }
+
+  .ant-table-tbody > tr > td{
+    border: none !important;
+  }
+  .ant-table-content .ant-table-thead .ant-table-cell::before{
+    
+    content: none !important;
+  }

@@ -1,0 +1,36 @@
+.home_right{
+    width: 25%;
+}
+.summary{
+    width: 100%;
+    height: 32%;
+}
+.home_main .column .column_item .every_data .communication{
+    margin-top: 5px;
+    border: 1px solid #004985;
+    border-radius: 10px;
+    width: 100%;
+    height: 45.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home_main .column .column_item .every_data .communication p {
+    color: #61c2f3;
+    text-align: center;
+}
+.home_main .home_right .echats_graph{
+    width: 100%;
+    height: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home_main .home_right .echats_graph .curve_box {
+    width: 100%;
+    height: 48.5%;
+}
+.home_main .home_right .echats_graph .columnar_box{
+    width: 100%;
+    height: 48.5%;
+}

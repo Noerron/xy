@@ -1,0 +1,121 @@
+.home_left{
+    width: 25%;
+}
+.home_left .all_data{
+    width: 100%;
+    height: 32%;
+}
+.home_main .column .column_item{
+    border-radius: 10px;
+    border: 1px solid #004985;
+    box-shadow: inset 0px 0px 10px 6px #002b52;
+}
+
+.home_main .column .title{
+    height: 40px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-width: 2px 2px 0;
+    background: url('../../../asstes/imgs/bright_line2.3f1d13d6.png') no-repeat 0px 25px;
+    background-size: 100%;
+    border-radius: 10px 10px 0 0;
+    font-size: 14px;
+}
+.home_main .column .title img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;  
+}
+.home_main .column .column_item .every_data{
+    width: 100%;
+    height: calc(100% - 40px);
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 10px 10px;
+    box-sizing: border-box;
+}
+.home_main .column .column_item .every_data .totalMileage{
+    height: 48.5%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.home_main .column .column_item .every_data .totalMileage .mileage_title{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.home_main .column .column_item .every_data .totalMileage .mileage_info{
+    width: 100%;
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    overflow: hidden;
+}
+.home_main .column .column_item .every_data .totalMileage .mileage_info li{
+    width: 10%;
+    height: 100%;
+    flex-direction: column;
+    transition: transform 1s ease-in-out;
+    list-style-type: none;
+    margin-left: 1%;
+}
+.home_main .column .column_item .every_data .totalMileage .mileage_info li span {
+    text-align: center;
+    background-color: #004985;
+    color: #61c2f3;
+    font-family: electronicFont;
+    font-size: 12px;
+    display: flex;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+  }
+  .home_main .column .column_item .every_data .numberBox{
+    width: 100%;
+    height: 48.5%;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+.home_main .column .column_item .every_data .numberBox .addressNumber {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #004985;
+}
+.home_main .column .column_item .every_data .numberBox .addressNumber p{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.home_left .new_violate{
+    height: 66%;
+    width: 100%; 
+}
+.home_main .home_left .new_violate .table{
+    overflow: auto;
+    height: calc(100% - 60px);
+    width: calc(100% - 20px);
+    margin: 0 auto; 
+}

@@ -1,0 +1,86 @@
+.violation{
+    width: 100%;
+    height: 100%;  
+}
+.violation_main{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box; 
+}
+.box{
+    position: relative;
+}
+.updown-main{
+    padding: 5px 0;
+}
+.form{
+    position: relative;
+    left: 20px;
+}
+.box .updown-main input,.box .updown-main .ant-select-selector,.form .ant-form-item-control-input-content .ant-input-affix-wrapper,.monitor_list input {
+  
+    max-width: 150px;
+    background-color: rgb(0, 20, 53) !important;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(0, 73, 133) !important;
+    box-shadow: rgb(0 43 82) 0px 0px 10px 3px inset !important;
+}
+.ant-form .ant-picker.ant-picker-range {
+   
+ 
+    background-color: rgb(0, 20, 53) !important;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(0, 73, 133) !important;
+    box-shadow: rgb(0 43 82) 0px 0px 10px 3px inset !important;
+}
+.box .updown-main .ant-picker-input input{
+    border: none !important;
+    width: 150px;
+}
+
+.box .updown-main input::placeholder,.box .updown-main .ant-select-selection-placeholder,.monitor_list input::placeholder {
+    color: #ccc;
+}
+.box .updown-main label{
+    color: #fff;
+    font-size: 12px;
+}
+
+.num_all{
+    float: right;
+}
+.num_all button{
+    margin-left: 8px;
+}
+
+.ant-tabs{
+    height: calc(100% - 160px);
+    position: relative;
+}
+.ant-tabs-nav{
+    margin-bottom: 0 !important;
+    
+}
+.ant-tabs-nav-wrap{
+    color: #fff;
+    border-bottom: 1px solid #004985 !important;
+}
+
+.ant-tabs-content-holder{
+
+    background-color: #001435;
+    
+    border: 1px solid #004985;
+    border-top: none;
+}
+.tabslist{
+    margin: 10px auto;
+    width: 98%;
+}
+.ant-table-tbody .ant-table-placeholder{
+    background-color: rgb(0, 20, 53) !important;
+}
+.ant-empty-description{
+    color: #fff !important;
+}
